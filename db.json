@@ -1,64 +1,54 @@
 {
-	"events": [
-		{
-			"id": "123",
-			"category": "animal welfare",
-			"title": "Cat Adoption Day",
-			"description": "Find your new feline friend at this event.",
-			"location": "Meow Town",
-			"date": "January 28, 2022",
-			"time": "12:00",
-			"organizer": "Kat Laydee"
-		},
-		{
-			"id": "456",
-			"category": "food",
-			"title": "Community Gardening",
-			"description": "Join us as we tend to the community edible plants.",
-			"location": "Flora City",
-			"date": "March 14, 2022",
-			"time": "10:00",
-			"organizer": "Fern Pollin"
-		},
-		{
-			"id": "789",
-			"category": "sustainability",
-			"title": "Beach Cleanup",
-			"description": "Help pick up trash along the shore.",
-			"location": "Playa Del Carmen",
-			"date": "July 22, 2022",
-			"time": "11:00",
-			"organizer": "Carey Wales"
-		},
-		{
-			"id": "9d5d3d87-aad4-445f-a153-2e0f714fcdef",
-			"category": "animal welfare",
-			"title": "test",
-			"description": "test",
-			"location": "test",
-			"date": "test",
-			"time": "test",
-			"organizer": "Raj"
-		},
-		{
-			"id": "a81186fe-99ee-4b1e-96d0-88d252a4cc42",
-			"category": "food",
-			"title": "take bread",
-			"description": "get bead",
-			"location": "india",
-			"date": "12/03/2025",
-			"time": "6PM",
-			"organizer": "Raj"
-		},
-		{
-			"id": "0e4e4ae5-4ac5-4e93-ab2a-0d9d408d43ad",
-			"category": "housing",
-			"title": "khsd",
-			"description": "k",
-			"location": "hKJ",
-			"date": "HKJ",
-			"time": "KJ",
-			"organizer": "Raj"
-		}
-	]
+  "events": [
+    {
+      "id": "123",
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Find your new feline friend at this event.",
+      "location": "Meow Town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "organizer": "Kat Laydee"
+    },
+    {
+      "id": "456",
+      "category": "food",
+      "title": "Community Gardening",
+      "description": "Join us as we tend to the community edible plants.",
+      "location": "Flora City",
+      "date": "March 14, 2022",
+      "time": "10:00",
+      "organizer": "Fern Pollin"
+    },
+    {
+      "id": "789",
+      "category": "sustainability",
+      "title": "Beach Cleanup",
+      "description": "Help pick up trash along the shore.",
+      "location": "Playa Del Carmen",
+      "date": "July 22, 2022",
+      "time": "11:00",
+      "organizer": "Carey Wales"
+    },
+    {
+      "id": "a81186fe-99ee-4b1e-96d0-88d252a4cc42",
+      "category": "food",
+      "title": "take bread",
+      "description": "get bead",
+      "location": "india",
+      "date": "12/03/2025",
+      "time": "6PM",
+      "organizer": "Raj"
+    },
+    {
+      "id": "5e259eda-e4c6-4208-ac5d-6c1a4cd56cc6",
+      "category": "nature",
+      "title": "test",
+      "description": "test",
+      "location": "tewst",
+      "date": "test",
+      "time": "test",
+      "organizer": "Raj"
+    }
+  ]
 }
