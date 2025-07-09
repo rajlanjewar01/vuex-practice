@@ -7,17 +7,26 @@
 </template>
 
 <script>
+import { createNamespacedHelpers } from 'vuex';
+import * as eventStoreTypes from '@/store/events/constants';
+
+const eventStore = createNamespacedHelpers(eventStoreTypes.NAMESPACE);
+
 export default {
 	props: ['id'],
 
-	created() {
-		this.$store.dispatch('fetchEvent', this.id);
+	methods: {
+		...eventStore.mapActions({
+			fetchEvent: eventStoreTypes.FETCH_EVENT
+		}),
 	},
 
 	computed: {
-		event() {
-			return this.$store.state.events;
-		}
+		...eventStore.mapState(['event'])
+	},
+
+	created() {
+		this.fetchEvent(this.id);
 	}
 }
 </script>

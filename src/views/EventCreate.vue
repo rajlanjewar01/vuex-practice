@@ -60,6 +60,10 @@
 </template>
 
 <script>
+import { createNamespacedHelpers } from 'vuex';
+import * as eventStoreTypes from '@/store/events/constants';
+
+const eventStore = createNamespacedHelpers(eventStoreTypes.NAMESPACE);
 import { v4 as uuidv4 } from 'uuid';
 
 export default {
@@ -86,7 +90,12 @@ export default {
 			}
 		}
 	},
+
 	methods: {
+		...eventStore.mapActions({
+			createEvent: eventStoreTypes.CREATE_EVENT
+		}),
+
 		onSubmit() {
 			const event = {
 				...this.event,
@@ -94,7 +103,7 @@ export default {
 				organizer: this.$store.state.user
 			};
 
-			this.$store.dispatch('createEvent', event);
+			this.createEvent(event);
 		}
 	}
 }
