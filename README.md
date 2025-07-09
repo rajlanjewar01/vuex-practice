@@ -5,3 +5,4 @@ v2: Pull requests:
 2. (https://github.com/rajlanjewar01/vuex-practice/pull/5) Commiting state with MUTATIONS
 
 v3: Action and code optimization
+v4: Refactor(Vuex best practices)
