@@ -40,19 +40,12 @@ const actions = {
 	},
 
 	[types.FETCH_EVENT]({ commit }, id) {
-		// const existingEvent = Object.values(this.state.events).find(event => event.id === this.id);
-
-		// if(existingEvent){
-		// 	commit(types.SET_EVENT, existingEvent);
-		// }
-		// else {
-			EventService.getEvent(id).then(response => {
-				commit(types.SET_EVENT, response.data);
-			})
-			.catch(error => {
-				console.log(error)
-			})
-		// }
+		EventService.getEvent(id).then(response => {
+			commit(types.SET_EVENT, response.data);
+		})
+		.catch(error => {
+			console.log(error)
+		})
 	}
 };
 
