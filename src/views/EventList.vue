@@ -6,6 +6,10 @@
 </template>
 
 <script>
+import { createNamespacedHelpers } from 'vuex';
+import * as eventStoreTypes from '@/store/events/constants';
+const eventStore = createNamespacedHelpers(eventStoreTypes.NAMESPACE);
+
 import EventCard from '@/components/EventCard.vue'
 
 export default {
@@ -15,14 +19,18 @@ export default {
 		EventCard
 	},
 
+	methods: {
+		...eventStore.mapActions({
+			fetchEvents: eventStoreTypes.FETCH_EVENTS
+		})
+	},
+
 	computed: {
-		events() {
-			return this.$store.state.events
-		}
+		...eventStore.mapState(['events'])
 	},
 
 	created() {
-		this.$store.dispatch('fetchEvents');
+		this.fetchEvents();
 	}
 }
 </script>
