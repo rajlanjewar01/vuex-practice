@@ -1,4 +1,4 @@
-1) v1: Initial starting code
+1) v1: Initial starting code [https://github.com/rajlanjewar01/vuex-practice/pull/3]
 2) v2: Pull requests:
    - [https://github.com/rajlanjewar01/vuex-practice/pull/3] Separating api endpoint with new script command
    - [https://github.com/rajlanjewar01/vuex-practice/pull/5] Commiting state with MUTATIONS
