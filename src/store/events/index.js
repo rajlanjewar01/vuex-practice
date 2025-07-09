@@ -22,7 +22,7 @@ const mutations = {
 };
 
 const actions = {
-	createEvent({ commit }, event) {
+	[types.CREATE_EVENT]({ commit }, event) {
 		EventService.postEvent(event).then(() => {
 			console.log('Event created successfully');
 			commit(types.ADD_EVENT, event);
@@ -31,7 +31,7 @@ const actions = {
 		})
 	},
 
-	fetchEvents({ commit }) {
+	[types.FETCH_EVENTS]({ commit }) {
 		EventService.getEvents().then(response => {
 			commit(types.SET_EVENTS, response.data);
 		}).catch(error => {
@@ -39,7 +39,7 @@ const actions = {
 		})
 	},
 
-	fetchEvent({ commit }, id) {
+	[types.FETCH_EVENT]({ commit }, id) {
 		// const existingEvent = Object.values(this.state.events).find(event => event.id === this.id);
 
 		// if(existingEvent){

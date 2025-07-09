@@ -7,6 +7,6 @@ export const SET_EVENTS = 'SET_EVENTS';
 export const SET_EVENT = 'SET_EVENT';
 
 // Action
-export const CREATE_EVENT = 'createEvent';
-export const FETCH_EVENTS = 'fetchEvents';
-export const FETCH_EVENT = 'fetchEvent';
+export const CREATE_EVENT = 'CREATE_EVENT';
+export const FETCH_EVENTS = 'FETCH_EVENTS';
+export const FETCH_EVENT = 'FETCH_EVENT';
