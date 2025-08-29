@@ -5,3 +5,4 @@
 
 3) v3: Action and code optimization [https://github.com/rajlanjewar01/vuex-practice/pull/6]
 4) v4: Refactor(Vuex best practices) [https://github.com/rajlanjewar01/vuex-practice/pull/7]
+5) v6: Vue CLI to Vite upgrade [https://github.com/rajlanjewar01/vuex-practice/pull/9]
