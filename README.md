@@ -1,8 +1,10 @@
 <img width="558" height="574" alt="image" src="https://github.com/user-attachments/assets/ebee6681-4a8a-43ea-97c5-60d97e6b9085" />
 <img width="379" height="538" alt="image" src="https://github.com/user-attachments/assets/8cead3b8-6d74-4bce-b758-c2bdb4e2deb4" />
 
-
-
+To run the project follow the below steps: 
+* Install dependencies: `npm install`
+* Run server local mocked server(json server): `npm run api`
+* Run project: `npm run dev`
 
 1) v1: Initial starting code [https://github.com/rajlanjewar01/vuex-practice/pull/2]
 2) v2: Pull requests:
