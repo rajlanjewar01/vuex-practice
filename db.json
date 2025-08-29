@@ -11,16 +11,6 @@
       "organizer": "Raj"
     },
     {
-      "id": "5e259eda-e4c6-4208-ac5d-6c1a4cd56cc6",
-      "category": "nature",
-      "title": "test",
-      "description": "test",
-      "location": "tewst",
-      "date": "test",
-      "time": "test",
-      "organizer": "Raj"
-    },
-    {
       "id": "73013ccb-4b91-40ae-9e42-29f8e16f5272",
       "category": "nature",
       "title": "Bike service",
@@ -28,6 +18,24 @@
       "location": "pimpri chinchwad",
       "date": "04/05/2025",
       "time": "11AM"
+    },
+    {
+      "id": "72d7dcfd-f485-4a6e-81ea-fab81b87a269",
+      "category": "nature",
+      "title": "Tree plantation",
+      "description": "weekend work",
+      "location": "Lonara",
+      "date": "12/02/2025",
+      "time": "9:00AM"
+    },
+    {
+      "id": "5655c83e-3448-42bc-a5d5-c285049538a9",
+      "category": "housing",
+      "title": "Foundation event",
+      "description": "-",
+      "location": "Kolkata",
+      "date": "03/10/2004",
+      "time": "04:00PM"
     }
   ]
 }
