@@ -4,7 +4,8 @@ Project screenshots:
 <img width="379" height="538" alt="image" src="https://github.com/user-attachments/assets/8cead3b8-6d74-4bce-b758-c2bdb4e2deb4" />
 
 To run the project follow the below steps: 
-1) Install dependencies: `npm install` or `npm i @raj0571/vuex-practice`
+Clone or install NPM package: `npm i @raj0571/vuex-practice`
+1) Install dependencies: `npm install`
 2) Run server local mocked server(json server): `npm run api`
 3) Run project: `npm run dev`
 
