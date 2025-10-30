@@ -18,3 +18,17 @@ Changes (Pull requests):
 3) v3: Action and code optimization [https://github.com/rajlanjewar01/vuex-practice/pull/6]
 4) v4: Refactor(Vuex best practices) [https://github.com/rajlanjewar01/vuex-practice/pull/7]
 5) v6: Vue CLI to Vite upgrade [https://github.com/rajlanjewar01/vuex-practice/pull/9]
+
+
+
+<sub>Vuex project
+	-- Github Code repository
+		-- Create Pull request
+			-- Creating Github Release
+				-- Deployment to Netlify/Vercel
+					-- Creating NPM Package/Publish
+					
+https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
+- npm adduser (make yourself authenticated)
+- npm init --scope=@raj1234 (npm username)
+- npm publish --access public (set public scope)</sub>
