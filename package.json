@@ -1,7 +1,6 @@
 {
-  "name": "vuex-practice",
+  "name": "@raj0571/vuex-practice",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,5 +19,22 @@
     "@vitejs/plugin-vue": "^6.0.1",
     "vite": "^7.0.6",
     "vite-plugin-vue-devtools": "^8.0.0"
-  }
+  },
+  "description": "Simple easy to understand Vuex project that follows standard Vuex recommended best practices built with latest Vite tool and deployed with Vercel services",
+  "main": "vite.config.js",
+  "author": "raj lanjewar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajlanjewar01/vuex-practice.git"
+  },
+  "keywords": [
+    "vuex",
+    "vuejs",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/rajlanjewar01/vuex-practice/issues"
+  },
+  "homepage": "https://github.com/rajlanjewar01/vuex-practice#readme"
 }

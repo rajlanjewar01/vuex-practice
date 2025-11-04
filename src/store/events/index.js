@@ -1,5 +1,5 @@
 import * as types from './constants';
-import EventService from '@/services/EventService.js';
+import eventService from '@/services/event';
 
 const _state = {
 	user: 'Raj',
@@ -23,7 +23,7 @@ const mutations = {
 
 const actions = {
 	[types.CREATE_EVENT]({ commit }, event) {
-		EventService.postEvent(event).then(() => {
+		eventService.postEvent(event).then(() => {
 			console.log('Event created successfully');
 			commit(types.ADD_EVENT, event);
 		}).catch(error => {
@@ -32,7 +32,7 @@ const actions = {
 	},
 
 	[types.FETCH_EVENTS]({ commit }) {
-		EventService.getEvents().then(response => {
+		eventService.getEvents().then(response => {
 			commit(types.SET_EVENTS, response.data);
 		}).catch(error => {
 			console.log(error)
@@ -40,7 +40,7 @@ const actions = {
 	},
 
 	[types.FETCH_EVENT]({ commit }, id) {
-		EventService.getEvent(id).then(response => {
+		eventService.getEvent(id).then(response => {
 			commit(types.SET_EVENT, response.data);
 		})
 		.catch(error => {
